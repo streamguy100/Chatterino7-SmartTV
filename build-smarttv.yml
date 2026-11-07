@@ -1,0 +1,150 @@
+name: Build Chatterino7 Smart TV Windows
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: build-smarttv-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  CONAN_VERSION: 2.11.0
+
+jobs:
+  build-windows:
+    name: "Build Windows x64 (Smart TV)"
+    runs-on: windows-2022
+
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+
+      - name: Clone upstream Chatterino7
+        shell: pwsh
+        run: |
+          git clone https://github.com/SevenTV/chatterino7.git upstream
+          cd upstream
+          git checkout 910b01dd428c4ac042028708704278b93227491b
+          git submodule update --init --recursive
+
+      - name: Apply Smart TV patch
+        shell: pwsh
+        run: |
+          Copy-Item smarttv.patch upstream/smarttv.patch
+          cd upstream
+          git apply smarttv.patch
+          git status --short
+          git diff --stat
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - name: Install Qt6
+        uses: jurplel/install-qt-action@v4.3.0
+        with:
+          cache: true
+          cache-key-prefix: windows-qt-6.9.3-v1
+          modules: qtimageformats
+          version: 6.9.3
+          arch: win64_msvc2022_64
+          setup-python: false
+
+      - name: Enable Developer Command Prompt
+        uses: ilammy/msvc-dev-cmd@v1.13.0
+        with:
+          arch: x64
+
+      - name: Setup sccache
+        uses: hendrikmuhs/ccache-action@v1.2.22
+        with:
+          variant: sccache
+          key: sccache-build-windows-x64-6.9.3-smarttv
+          restore-keys: |
+            sccache-build-windows-x64
+
+      - name: Cache conan packages
+        uses: actions/cache@v5
+        with:
+          key: ${{ runner.os }}-${{ runner.arch }}-conan-user-QT6-smarttv
+          path: ~/.conan2/
+          restore-keys: |
+            ${{ runner.os }}-${{ runner.arch }}-conan-user-
+
+      # NOTE: Upstream "Prepare release auth config" step is intentionally
+      # SKIPPED here. It throws if MRAB/PHGTK secrets are missing, and
+      # those secrets are not set in this repo and must not fail the build.
+      # The app builds and runs without the release auth blob; YouTube
+      # auth falls back to the MRAB environment variable at runtime.
+
+      - name: Install and setup Conan
+        shell: bash
+        run: |
+          pip install conan==${{ env.CONAN_VERSION }}
+          conan --version
+          conan profile detect -f
+
+      - name: Install dependencies
+        shell: bash
+        working-directory: upstream
+        run: |
+          mkdir build
+          cd build
+          conan install .. \
+            -s build_type=Release \
+            -c tools.cmake.cmaketoolchain:generator="Ninja" \
+            -b missing \
+            --output-folder=. \
+            -o with_openssl3=True
+
+      - name: Build
+        shell: pwsh
+        working-directory: upstream
+        run: |
+          cd build
+          cmake `
+            -G Ninja `
+            -DCMAKE_BUILD_TYPE=Release `
+            -DCMAKE_TOOLCHAIN_FILE="conan_toolchain.cmake" `
+            -DUSE_PRECOMPILED_HEADERS=ON `
+            -DCHATTERINO_LTO=OFF `
+            -DFORCE_JSON_GENERATION=Off `
+            -DCHATTERINO_SPELLCHECK=On `
+            ..
+          ninja
+
+      - name: Package
+        working-directory: upstream/build
+        shell: pwsh
+        run: |
+          $packageDir = "Chatterino7SmartTV"
+          if (Test-Path $packageDir) {
+            Remove-Item $packageDir -Recurse -Force
+          }
+          windeployqt bin/chatterino.exe --release --no-compiler-runtime --no-translations --no-opengl-sw --dir $packageDir --force-openssl
+          Copy-Item bin/chatterino.exe $packageDir/Chatterino7SmartTV.exe
+          Remove-Item $packageDir/chatterino.exe -ErrorAction SilentlyContinue
+          Get-ChildItem bin -Filter '*.dll' | Copy-Item -Destination $packageDir -Force
+          ..\.CI\deploy-crt.ps1 $packageDir
+          if (Test-Path "Chatterino7SmartTV.zip") {
+            Remove-Item "Chatterino7SmartTV.zip" -Force
+          }
+          7z a Chatterino7SmartTV.zip .\$packageDir\*
+
+      - name: Upload artifact (zip)
+        uses: actions/upload-artifact@v7
+        with:
+          name: Chatterino7SmartTV.zip
+          path: upstream/build/Chatterino7SmartTV.zip
+
+      - name: Upload artifact (exe)
+        uses: actions/upload-artifact@v7
+        with:
+          name: Chatterino7SmartTV.exe
+          path: upstream/build/Chatterino7SmartTV/Chatterino7SmartTV.exe
