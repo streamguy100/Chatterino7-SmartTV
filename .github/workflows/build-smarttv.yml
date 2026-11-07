@@ -23,6 +23,16 @@ jobs:
         with:
           fetch-depth: 1
 
+      # Setup Python BEFORE cloning upstream: setup-python's pip cache
+      # step stats the whole workspace, and upstream's
+      # lib/settings/tests/files/realpath/symlink-recursive-bar is a
+      # recursive symlink that fails with ELOOP. No cache: pip either -
+      # there is no requirements file to cache, conan is installed later.
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
       - name: Clone upstream Chatterino7
         shell: pwsh
         run: |
@@ -39,12 +49,6 @@ jobs:
           git apply smarttv.patch
           git status --short
           git diff --stat
-
-      - name: Setup Python
-        uses: actions/setup-python@v6
-        with:
-          python-version: "3.13"
-          cache: pip
 
       - name: Install Qt6
         uses: jurplel/install-qt-action@v4.3.0
