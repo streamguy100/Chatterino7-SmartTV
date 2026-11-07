@@ -1,0 +1,2542 @@
+diff --git a/resources/themes/SmartTV-Christmas.json b/resources/themes/SmartTV-Christmas.json
+new file mode 100644
+index 0000000..61c7f54
+--- /dev/null
++++ b/resources/themes/SmartTV-Christmas.json
+@@ -0,0 +1,133 @@
++{
++  "$schema": "../../docs/ChatterinoTheme.schema.json",
++  "metadata": {
++    "iconTheme": "light"
++  },
++  "colors": {
++    "accent": "#e62117",
++    "messages": {
++      "backgrounds": {
++        "alternate": "#0a1f12",
++        "regular": "#04100a"
++      },
++      "disabled": "#99191919",
++      "highlightAnimationEnd": "#00e6e6e6",
++      "highlightAnimationStart": "#6ee6e6e6",
++      "selection": "#40ffffff",
++      "textColors": {
++        "caret": "#ffffff",
++        "chatPlaceholder": "#5d5555",
++        "link": "#4ade80",
++        "regular": "#ffffff",
++        "system": "#8c7f7f"
++      }
++    },
++    "overlayMessages": {
++      "backgrounds": {
++        "alternate": "#32000000",
++        "regular": "transparent"
++      },
++      "disabled": "#64000000",
++      "selection": "#40ffffff",
++      "textColors": {
++        "caret": "#ffffff",
++        "chatPlaceholder": "#5d5555",
++        "link": "#4ade80",
++        "regular": "#ffffff",
++        "system": "#8c7f7f"
++      },
++      "background": "#000"
++    },
++    "scrollbars": {
++      "background": "#00000000",
++      "thumb": "#2e7a4a",
++      "thumbSelected": "#2e7a4a"
++    },
++    "splits": {
++      "background": "#04100a",
++      "dropPreview": "#300094ff",
++      "dropPreviewBorder": "#0094ff",
++      "dropTargetRect": "#000094ff",
++      "dropTargetRectBorder": "#000094ff",
++      "header": {
++        "background": "#0f2a1a",
++        "border": "#383838",
++        "focusedBackground": "#17452a",
++        "focusedBorder": "#464646",
++        "focusedText": "#84c1ff",
++        "text": "#ffffff"
++      },
++      "input": {
++        "background": "#071a0e",
++        "backgroundPulse": "#245424",
++        "searchFailText": "#ff0000",
++        "searchHighlightBackground": "#506e6eff",
++        "text": "#ffffff"
++      },
++      "messageSeperator": "#3c3c3c",
++      "resizeHandle": "#700094ff",
++      "resizeHandleBackground": "#200094ff"
++    },
++    "tabs": {
++      "liveIndicator": "#ff0000",
++      "rerunIndicator": "#c7c715",
++      "dividerLine": "#555555",
++      "highlighted": {
++        "backgrounds": {
++          "hover": "#252525",
++          "regular": "#252525",
++          "unfocused": "#252525"
++        },
++        "line": {
++          "hover": "#e62117",
++          "regular": "#e62117",
++          "unfocused": "#e62117"
++        },
++        "text": "#eeeeee"
++      },
++      "newMessage": {
++        "backgrounds": {
++          "hover": "#252525",
++          "regular": "#252525",
++          "unfocused": "#252525"
++        },
++        "line": {
++          "hover": "#888888",
++          "regular": "#888888",
++          "unfocused": "#888888"
++        },
++        "text": "#eeeeee"
++      },
++      "regular": {
++        "backgrounds": {
++          "hover": "#252525",
++          "regular": "#252525",
++          "unfocused": "#252525"
++        },
++        "line": {
++          "hover": "#444444",
++          "regular": "#444444",
++          "unfocused": "#444444"
++        },
++        "text": "#bfe8cc"
++      },
++      "selected": {
++        "backgrounds": {
++          "hover": "#12301f",
++          "regular": "#12301f",
++          "unfocused": "#12301f"
++        },
++        "line": {
++          "hover": "#e62117",
++          "regular": "#e62117",
++          "unfocused": "#e62117"
++        },
++        "text": "#ffffff"
++      }
++    },
++    "window": {
++      "background": "#04100a",
++      "text": "#eeeeee"
++    }
++  }
++}
+diff --git a/resources/themes/SmartTV-Easter.json b/resources/themes/SmartTV-Easter.json
+new file mode 100644
+index 0000000..2873d54
+--- /dev/null
++++ b/resources/themes/SmartTV-Easter.json
+@@ -0,0 +1,133 @@
++{
++  "$schema": "../../docs/ChatterinoTheme.schema.json",
++  "metadata": {
++    "iconTheme": "light"
++  },
++  "colors": {
++    "accent": "#f9a8d4",
++    "messages": {
++      "backgrounds": {
++        "alternate": "#1d1626",
++        "regular": "#100d14"
++      },
++      "disabled": "#99191919",
++      "highlightAnimationEnd": "#00e6e6e6",
++      "highlightAnimationStart": "#6ee6e6e6",
++      "selection": "#40ffffff",
++      "textColors": {
++        "caret": "#ffffff",
++        "chatPlaceholder": "#5d5555",
++        "link": "#f0abfc",
++        "regular": "#ffffff",
++        "system": "#8c7f7f"
++      }
++    },
++    "overlayMessages": {
++      "backgrounds": {
++        "alternate": "#32000000",
++        "regular": "transparent"
++      },
++      "disabled": "#64000000",
++      "selection": "#40ffffff",
++      "textColors": {
++        "caret": "#ffffff",
++        "chatPlaceholder": "#5d5555",
++        "link": "#f0abfc",
++        "regular": "#ffffff",
++        "system": "#8c7f7f"
++      },
++      "background": "#000"
++    },
++    "scrollbars": {
++      "background": "#00000000",
++      "thumb": "#7a5a99",
++      "thumbSelected": "#7a5a99"
++    },
++    "splits": {
++      "background": "#100d14",
++      "dropPreview": "#300094ff",
++      "dropPreviewBorder": "#0094ff",
++      "dropTargetRect": "#000094ff",
++      "dropTargetRectBorder": "#000094ff",
++      "header": {
++        "background": "#241a30",
++        "border": "#383838",
++        "focusedBackground": "#3a2a4d",
++        "focusedBorder": "#464646",
++        "focusedText": "#84c1ff",
++        "text": "#ffffff"
++      },
++      "input": {
++        "background": "#171222",
++        "backgroundPulse": "#245424",
++        "searchFailText": "#ff0000",
++        "searchHighlightBackground": "#506e6eff",
++        "text": "#ffffff"
++      },
++      "messageSeperator": "#3c3c3c",
++      "resizeHandle": "#700094ff",
++      "resizeHandleBackground": "#200094ff"
++    },
++    "tabs": {
++      "liveIndicator": "#ff0000",
++      "rerunIndicator": "#c7c715",
++      "dividerLine": "#555555",
++      "highlighted": {
++        "backgrounds": {
++          "hover": "#252525",
++          "regular": "#252525",
++          "unfocused": "#252525"
++        },
++        "line": {
++          "hover": "#f9a8d4",
++          "regular": "#f9a8d4",
++          "unfocused": "#f9a8d4"
++        },
++        "text": "#eeeeee"
++      },
++      "newMessage": {
++        "backgrounds": {
++          "hover": "#252525",
++          "regular": "#252525",
++          "unfocused": "#252525"
++        },
++        "line": {
++          "hover": "#888888",
++          "regular": "#888888",
++          "unfocused": "#888888"
++        },
++        "text": "#eeeeee"
++      },
++      "regular": {
++        "backgrounds": {
++          "hover": "#252525",
++          "regular": "#252525",
++          "unfocused": "#252525"
++        },
++        "line": {
++          "hover": "#444444",
++          "regular": "#444444",
++          "unfocused": "#444444"
++        },
++        "text": "#d8cfe8"
++      },
++      "selected": {
++        "backgrounds": {
++          "hover": "#2c2140",
++          "regular": "#2c2140",
++          "unfocused": "#2c2140"
++        },
++        "line": {
++          "hover": "#f9a8d4",
++          "regular": "#f9a8d4",
++          "unfocused": "#f9a8d4"
++        },
++        "text": "#ffffff"
++      }
++    },
++    "window": {
++      "background": "#100d14",
++      "text": "#eeeeee"
++    }
++  }
++}
+diff --git a/resources/themes/SmartTV-Halloween.json b/resources/themes/SmartTV-Halloween.json
+new file mode 100644
+index 0000000..aa3f89e
+--- /dev/null
++++ b/resources/themes/SmartTV-Halloween.json
+@@ -0,0 +1,133 @@
++{
++  "$schema": "../../docs/ChatterinoTheme.schema.json",
++  "metadata": {
++    "iconTheme": "light"
++  },
++  "colors": {
++    "accent": "#ff7518",
++    "messages": {
++      "backgrounds": {
++        "alternate": "#120a05",
++        "regular": "#050505"
++      },
++      "disabled": "#99191919",
++      "highlightAnimationEnd": "#00e6e6e6",
++      "highlightAnimationStart": "#6ee6e6e6",
++      "selection": "#40ffffff",
++      "textColors": {
++        "caret": "#ffffff",
++        "chatPlaceholder": "#5d5555",
++        "link": "#ffa94d",
++        "regular": "#ffffff",
++        "system": "#8c7f7f"
++      }
++    },
++    "overlayMessages": {
++      "backgrounds": {
++        "alternate": "#32000000",
++        "regular": "transparent"
++      },
++      "disabled": "#64000000",
++      "selection": "#40ffffff",
++      "textColors": {
++        "caret": "#ffffff",
++        "chatPlaceholder": "#5d5555",
++        "link": "#ffa94d",
++        "regular": "#ffffff",
++        "system": "#8c7f7f"
++      },
++      "background": "#000"
++    },
++    "scrollbars": {
++      "background": "#00000000",
++      "thumb": "#8a5a2e",
++      "thumbSelected": "#8a5a2e"
++    },
++    "splits": {
++      "background": "#050505",
++      "dropPreview": "#300094ff",
++      "dropPreviewBorder": "#0094ff",
++      "dropTargetRect": "#000094ff",
++      "dropTargetRectBorder": "#000094ff",
++      "header": {
++        "background": "#1f0e00",
++        "border": "#383838",
++        "focusedBackground": "#331800",
++        "focusedBorder": "#464646",
++        "focusedText": "#84c1ff",
++        "text": "#ffffff"
++      },
++      "input": {
++        "background": "#0d0700",
++        "backgroundPulse": "#245424",
++        "searchFailText": "#ff0000",
++        "searchHighlightBackground": "#506e6eff",
++        "text": "#ffffff"
++      },
++      "messageSeperator": "#3c3c3c",
++      "resizeHandle": "#700094ff",
++      "resizeHandleBackground": "#200094ff"
++    },
++    "tabs": {
++      "liveIndicator": "#ff0000",
++      "rerunIndicator": "#c7c715",
++      "dividerLine": "#555555",
++      "highlighted": {
++        "backgrounds": {
++          "hover": "#252525",
++          "regular": "#252525",
++          "unfocused": "#252525"
++        },
++        "line": {
++          "hover": "#ff7518",
++          "regular": "#ff7518",
++          "unfocused": "#ff7518"
++        },
++        "text": "#eeeeee"
++      },
++      "newMessage": {
++        "backgrounds": {
++          "hover": "#252525",
++          "regular": "#252525",
++          "unfocused": "#252525"
++        },
++        "line": {
++          "hover": "#888888",
++          "regular": "#888888",
++          "unfocused": "#888888"
++        },
++        "text": "#eeeeee"
++      },
++      "regular": {
++        "backgrounds": {
++          "hover": "#252525",
++          "regular": "#252525",
++          "unfocused": "#252525"
++        },
++        "line": {
++          "hover": "#444444",
++          "regular": "#444444",
++          "unfocused": "#444444"
++        },
++        "text": "#d8b89a"
++      },
++      "selected": {
++        "backgrounds": {
++          "hover": "#2a1500",
++          "regular": "#2a1500",
++          "unfocused": "#2a1500"
++        },
++        "line": {
++          "hover": "#ff7518",
++          "regular": "#ff7518",
++          "unfocused": "#ff7518"
++        },
++        "text": "#ffffff"
++      }
++    },
++    "window": {
++      "background": "#000000",
++      "text": "#eeeeee"
++    }
++  }
++}
+diff --git a/resources/themes/SmartTV-Independence.json b/resources/themes/SmartTV-Independence.json
+new file mode 100644
+index 0000000..f9fe15b
+--- /dev/null
++++ b/resources/themes/SmartTV-Independence.json
+@@ -0,0 +1,133 @@
++{
++  "$schema": "../../docs/ChatterinoTheme.schema.json",
++  "metadata": {
++    "iconTheme": "light"
++  },
++  "colors": {
++    "accent": "#ff3b30",
++    "messages": {
++      "backgrounds": {
++        "alternate": "#0a1026",
++        "regular": "#04060f"
++      },
++      "disabled": "#99191919",
++      "highlightAnimationEnd": "#00e6e6e6",
++      "highlightAnimationStart": "#6ee6e6e6",
++      "selection": "#40ffffff",
++      "textColors": {
++        "caret": "#ffffff",
++        "chatPlaceholder": "#5d5555",
++        "link": "#6ea8ff",
++        "regular": "#ffffff",
++        "system": "#8c7f7f"
++      }
++    },
++    "overlayMessages": {
++      "backgrounds": {
++        "alternate": "#32000000",
++        "regular": "transparent"
++      },
++      "disabled": "#64000000",
++      "selection": "#40ffffff",
++      "textColors": {
++        "caret": "#ffffff",
++        "chatPlaceholder": "#5d5555",
++        "link": "#6ea8ff",
++        "regular": "#ffffff",
++        "system": "#8c7f7f"
++      },
++      "background": "#000"
++    },
++    "scrollbars": {
++      "background": "#00000000",
++      "thumb": "#3a4a6b",
++      "thumbSelected": "#3a4a6b"
++    },
++    "splits": {
++      "background": "#04060f",
++      "dropPreview": "#300094ff",
++      "dropPreviewBorder": "#0094ff",
++      "dropTargetRect": "#000094ff",
++      "dropTargetRectBorder": "#000094ff",
++      "header": {
++        "background": "#0d1a38",
++        "border": "#383838",
++        "focusedBackground": "#16294d",
++        "focusedBorder": "#464646",
++        "focusedText": "#84c1ff",
++        "text": "#ffffff"
++      },
++      "input": {
++        "background": "#070b1a",
++        "backgroundPulse": "#245424",
++        "searchFailText": "#ff0000",
++        "searchHighlightBackground": "#506e6eff",
++        "text": "#ffffff"
++      },
++      "messageSeperator": "#3c3c3c",
++      "resizeHandle": "#700094ff",
++      "resizeHandleBackground": "#200094ff"
++    },
++    "tabs": {
++      "liveIndicator": "#ff0000",
++      "rerunIndicator": "#c7c715",
++      "dividerLine": "#555555",
++      "highlighted": {
++        "backgrounds": {
++          "hover": "#252525",
++          "regular": "#252525",
++          "unfocused": "#252525"
++        },
++        "line": {
++          "hover": "#ff3b30",
++          "regular": "#ff3b30",
++          "unfocused": "#ff3b30"
++        },
++        "text": "#eeeeee"
++      },
++      "newMessage": {
++        "backgrounds": {
++          "hover": "#252525",
++          "regular": "#252525",
++          "unfocused": "#252525"
++        },
++        "line": {
++          "hover": "#888888",
++          "regular": "#888888",
++          "unfocused": "#888888"
++        },
++        "text": "#eeeeee"
++      },
++      "regular": {
++        "backgrounds": {
++          "hover": "#252525",
++          "regular": "#252525",
++          "unfocused": "#252525"
++        },
++        "line": {
++          "hover": "#444444",
++          "regular": "#444444",
++          "unfocused": "#444444"
++        },
++        "text": "#c2cdea"
++      },
++      "selected": {
++        "backgrounds": {
++          "hover": "#14224a",
++          "regular": "#14224a",
++          "unfocused": "#14224a"
++        },
++        "line": {
++          "hover": "#ff3b30",
++          "regular": "#ff3b30",
++          "unfocused": "#ff3b30"
++        },
++        "text": "#ffffff"
++      }
++    },
++    "window": {
++      "background": "#04060f",
++      "text": "#eeeeee"
++    }
++  }
++}
+diff --git a/resources/themes/SmartTV-Juneteenth.json b/resources/themes/SmartTV-Juneteenth.json
+new file mode 100644
+index 0000000..18ef464
+--- /dev/null
++++ b/resources/themes/SmartTV-Juneteenth.json
+@@ -0,0 +1,133 @@
++{
++  "$schema": "../../docs/ChatterinoTheme.schema.json",
++  "metadata": {
++    "iconTheme": "light"
++  },
++  "colors": {
++    "accent": "#ffbf00",
++    "messages": {
++      "backgrounds": {
++        "alternate": "#1a1408",
++        "regular": "#0d0a05"
++      },
++      "disabled": "#99191919",
++      "highlightAnimationEnd": "#00e6e6e6",
++      "highlightAnimationStart": "#6ee6e6e6",
++      "selection": "#40ffffff",
++      "textColors": {
++        "caret": "#ffffff",
++        "chatPlaceholder": "#5d5555",
++        "link": "#4ade80",
++        "regular": "#ffffff",
++        "system": "#8c7f7f"
++      }
++    },
++    "overlayMessages": {
++      "backgrounds": {
++        "alternate": "#32000000",
++        "regular": "transparent"
++      },
++      "disabled": "#64000000",
++      "selection": "#40ffffff",
++      "textColors": {
++        "caret": "#ffffff",
++        "chatPlaceholder": "#5d5555",
++        "link": "#4ade80",
++        "regular": "#ffffff",
++        "system": "#8c7f7f"
++      },
++      "background": "#000"
++    },
++    "scrollbars": {
++      "background": "#00000000",
++      "thumb": "#8a7a2e",
++      "thumbSelected": "#8a7a2e"
++    },
++    "splits": {
++      "background": "#0d0a05",
++      "dropPreview": "#300094ff",
++      "dropPreviewBorder": "#0094ff",
++      "dropTargetRect": "#000094ff",
++      "dropTargetRectBorder": "#000094ff",
++      "header": {
++        "background": "#241a00",
++        "border": "#383838",
++        "focusedBackground": "#3a2c00",
++        "focusedBorder": "#464646",
++        "focusedText": "#84c1ff",
++        "text": "#ffffff"
++      },
++      "input": {
++        "background": "#120e05",
++        "backgroundPulse": "#245424",
++        "searchFailText": "#ff0000",
++        "searchHighlightBackground": "#506e6eff",
++        "text": "#ffffff"
++      },
++      "messageSeperator": "#3c3c3c",
++      "resizeHandle": "#700094ff",
++      "resizeHandleBackground": "#200094ff"
++    },
++    "tabs": {
++      "liveIndicator": "#ff0000",
++      "rerunIndicator": "#c7c715",
++      "dividerLine": "#555555",
++      "highlighted": {
++        "backgrounds": {
++          "hover": "#252525",
++          "regular": "#252525",
++          "unfocused": "#252525"
++        },
++        "line": {
++          "hover": "#ff6b6b",
++          "regular": "#ff6b6b",
++          "unfocused": "#ff6b6b"
++        },
++        "text": "#eeeeee"
++      },
++      "newMessage": {
++        "backgrounds": {
++          "hover": "#252525",
++          "regular": "#252525",
++          "unfocused": "#252525"
++        },
++        "line": {
++          "hover": "#888888",
++          "regular": "#888888",
++          "unfocused": "#888888"
++        },
++        "text": "#eeeeee"
++      },
++      "regular": {
++        "backgrounds": {
++          "hover": "#252525",
++          "regular": "#252525",
++          "unfocused": "#252525"
++        },
++        "line": {
++          "hover": "#444444",
++          "regular": "#444444",
++          "unfocused": "#444444"
++        },
++        "text": "#d8c9a0"
++      },
++      "selected": {
++        "backgrounds": {
++          "hover": "#2e2500",
++          "regular": "#2e2500",
++          "unfocused": "#2e2500"
++        },
++        "line": {
++          "hover": "#ffbf00",
++          "regular": "#ffbf00",
++          "unfocused": "#ffbf00"
++        },
++        "text": "#ffffff"
++      }
++    },
++    "window": {
++      "background": "#0d0a05",
++      "text": "#eeeeee"
++    }
++  }
++}
+diff --git a/resources/themes/SmartTV-Labor.json b/resources/themes/SmartTV-Labor.json
+new file mode 100644
+index 0000000..05fed39
+--- /dev/null
++++ b/resources/themes/SmartTV-Labor.json
+@@ -0,0 +1,133 @@
++{
++  "$schema": "../../docs/ChatterinoTheme.schema.json",
++  "metadata": {
++    "iconTheme": "light"
++  },
++  "colors": {
++    "accent": "#1e90ff",
++    "messages": {
++      "backgrounds": {
++        "alternate": "#0a1220",
++        "regular": "#05080f"
++      },
++      "disabled": "#99191919",
++      "highlightAnimationEnd": "#00e6e6e6",
++      "highlightAnimationStart": "#6ee6e6e6",
++      "selection": "#40ffffff",
++      "textColors": {
++        "caret": "#ffffff",
++        "chatPlaceholder": "#5d5555",
++        "link": "#63b3ff",
++        "regular": "#ffffff",
++        "system": "#8c7f7f"
++      }
++    },
++    "overlayMessages": {
++      "backgrounds": {
++        "alternate": "#32000000",
++        "regular": "transparent"
++      },
++      "disabled": "#64000000",
++      "selection": "#40ffffff",
++      "textColors": {
++        "caret": "#ffffff",
++        "chatPlaceholder": "#5d5555",
++        "link": "#63b3ff",
++        "regular": "#ffffff",
++        "system": "#8c7f7f"
++      },
++      "background": "#000"
++    },
++    "scrollbars": {
++      "background": "#00000000",
++      "thumb": "#2e5a8a",
++      "thumbSelected": "#2e5a8a"
++    },
++    "splits": {
++      "background": "#05080f",
++      "dropPreview": "#300094ff",
++      "dropPreviewBorder": "#0094ff",
++      "dropTargetRect": "#000094ff",
++      "dropTargetRectBorder": "#000094ff",
++      "header": {
++        "background": "#0f2440",
++        "border": "#383838",
++        "focusedBackground": "#173a66",
++        "focusedBorder": "#464646",
++        "focusedText": "#84c1ff",
++        "text": "#ffffff"
++      },
++      "input": {
++        "background": "#070d18",
++        "backgroundPulse": "#245424",
++        "searchFailText": "#ff0000",
++        "searchHighlightBackground": "#506e6eff",
++        "text": "#ffffff"
++      },
++      "messageSeperator": "#3c3c3c",
++      "resizeHandle": "#700094ff",
++      "resizeHandleBackground": "#200094ff"
++    },
++    "tabs": {
++      "liveIndicator": "#ff0000",
++      "rerunIndicator": "#c7c715",
++      "dividerLine": "#555555",
++      "highlighted": {
++        "backgrounds": {
++          "hover": "#252525",
++          "regular": "#252525",
++          "unfocused": "#252525"
++        },
++        "line": {
++          "hover": "#ffb020",
++          "regular": "#ffb020",
++          "unfocused": "#ffb020"
++        },
++        "text": "#eeeeee"
++      },
++      "newMessage": {
++        "backgrounds": {
++          "hover": "#252525",
++          "regular": "#252525",
++          "unfocused": "#252525"
++        },
++        "line": {
++          "hover": "#888888",
++          "regular": "#888888",
++          "unfocused": "#888888"
++        },
++        "text": "#eeeeee"
++      },
++      "regular": {
++        "backgrounds": {
++          "hover": "#252525",
++          "regular": "#252525",
++          "unfocused": "#252525"
++        },
++        "line": {
++          "hover": "#444444",
++          "regular": "#444444",
++          "unfocused": "#444444"
++        },
++        "text": "#b8cdea"
++      },
++      "selected": {
++        "backgrounds": {
++          "hover": "#12294d",
++          "regular": "#12294d",
++          "unfocused": "#12294d"
++        },
++        "line": {
++          "hover": "#1e90ff",
++          "regular": "#1e90ff",
++          "unfocused": "#1e90ff"
++        },
++        "text": "#ffffff"
++      }
++    },
++    "window": {
++      "background": "#05080f",
++      "text": "#eeeeee"
++    }
++  }
++}
+diff --git a/resources/themes/SmartTV-Memorial.json b/resources/themes/SmartTV-Memorial.json
+new file mode 100644
+index 0000000..24cefcc
+--- /dev/null
++++ b/resources/themes/SmartTV-Memorial.json
+@@ -0,0 +1,133 @@
++{
++  "$schema": "../../docs/ChatterinoTheme.schema.json",
++  "metadata": {
++    "iconTheme": "light"
++  },
++  "colors": {
++    "accent": "#b22234",
++    "messages": {
++      "backgrounds": {
++        "alternate": "#0c1226",
++        "regular": "#05070f"
++      },
++      "disabled": "#99191919",
++      "highlightAnimationEnd": "#00e6e6e6",
++      "highlightAnimationStart": "#6ee6e6e6",
++      "selection": "#40ffffff",
++      "textColors": {
++        "caret": "#ffffff",
++        "chatPlaceholder": "#5d5555",
++        "link": "#7aa5ff",
++        "regular": "#ffffff",
++        "system": "#8c7f7f"
++      }
++    },
++    "overlayMessages": {
++      "backgrounds": {
++        "alternate": "#32000000",
++        "regular": "transparent"
++      },
++      "disabled": "#64000000",
++      "selection": "#40ffffff",
++      "textColors": {
++        "caret": "#ffffff",
++        "chatPlaceholder": "#5d5555",
++        "link": "#7aa5ff",
++        "regular": "#ffffff",
++        "system": "#8c7f7f"
++      },
++      "background": "#000"
++    },
++    "scrollbars": {
++      "background": "#00000000",
++      "thumb": "#3a4a6b",
++      "thumbSelected": "#3a4a6b"
++    },
++    "splits": {
++      "background": "#05070f",
++      "dropPreview": "#300094ff",
++      "dropPreviewBorder": "#0094ff",
++      "dropTargetRect": "#000094ff",
++      "dropTargetRectBorder": "#000094ff",
++      "header": {
++        "background": "#101d3a",
++        "border": "#383838",
++        "focusedBackground": "#1c2f55",
++        "focusedBorder": "#464646",
++        "focusedText": "#84c1ff",
++        "text": "#ffffff"
++      },
++      "input": {
++        "background": "#080d1c",
++        "backgroundPulse": "#245424",
++        "searchFailText": "#ff0000",
++        "searchHighlightBackground": "#506e6eff",
++        "text": "#ffffff"
++      },
++      "messageSeperator": "#3c3c3c",
++      "resizeHandle": "#700094ff",
++      "resizeHandleBackground": "#200094ff"
++    },
++    "tabs": {
++      "liveIndicator": "#ff0000",
++      "rerunIndicator": "#c7c715",
++      "dividerLine": "#555555",
++      "highlighted": {
++        "backgrounds": {
++          "hover": "#252525",
++          "regular": "#252525",
++          "unfocused": "#252525"
++        },
++        "line": {
++          "hover": "#b22234",
++          "regular": "#b22234",
++          "unfocused": "#b22234"
++        },
++        "text": "#eeeeee"
++      },
++      "newMessage": {
++        "backgrounds": {
++          "hover": "#252525",
++          "regular": "#252525",
++          "unfocused": "#252525"
++        },
++        "line": {
++          "hover": "#888888",
++          "regular": "#888888",
++          "unfocused": "#888888"
++        },
++        "text": "#eeeeee"
++      },
++      "regular": {
++        "backgrounds": {
++          "hover": "#252525",
++          "regular": "#252525",
++          "unfocused": "#252525"
++        },
++        "line": {
++          "hover": "#444444",
++          "regular": "#444444",
++          "unfocused": "#444444"
++        },
++        "text": "#c2cdea"
++      },
++      "selected": {
++        "backgrounds": {
++          "hover": "#16233f",
++          "regular": "#16233f",
++          "unfocused": "#16233f"
++        },
++        "line": {
++          "hover": "#b22234",
++          "regular": "#b22234",
++          "unfocused": "#b22234"
++        },
++        "text": "#ffffff"
++      }
++    },
++    "window": {
++      "background": "#05070f",
++      "text": "#eeeeee"
++    }
++  }
++}
+diff --git a/resources/themes/SmartTV-NewYears.json b/resources/themes/SmartTV-NewYears.json
+new file mode 100644
+index 0000000..3b024b9
+--- /dev/null
++++ b/resources/themes/SmartTV-NewYears.json
+@@ -0,0 +1,133 @@
++{
++  "$schema": "../../docs/ChatterinoTheme.schema.json",
++  "metadata": {
++    "iconTheme": "light"
++  },
++  "colors": {
++    "accent": "#ffd700",
++    "messages": {
++      "backgrounds": {
++        "alternate": "#1a180a",
++        "regular": "#0d0c05"
++      },
++      "disabled": "#99191919",
++      "highlightAnimationEnd": "#00e6e6e6",
++      "highlightAnimationStart": "#6ee6e6e6",
++      "selection": "#40ffffff",
++      "textColors": {
++        "caret": "#ffffff",
++        "chatPlaceholder": "#5d5555",
++        "link": "#ffe27a",
++        "regular": "#ffffff",
++        "system": "#8c7f7f"
++      }
++    },
++    "overlayMessages": {
++      "backgrounds": {
++        "alternate": "#32000000",
++        "regular": "transparent"
++      },
++      "disabled": "#64000000",
++      "selection": "#40ffffff",
++      "textColors": {
++        "caret": "#ffffff",
++        "chatPlaceholder": "#5d5555",
++        "link": "#ffe27a",
++        "regular": "#ffffff",
++        "system": "#8c7f7f"
++      },
++      "background": "#000"
++    },
++    "scrollbars": {
++      "background": "#00000000",
++      "thumb": "#8a7a2e",
++      "thumbSelected": "#8a7a2e"
++    },
++    "splits": {
++      "background": "#0d0c05",
++      "dropPreview": "#300094ff",
++      "dropPreviewBorder": "#0094ff",
++      "dropTargetRect": "#000094ff",
++      "dropTargetRectBorder": "#000094ff",
++      "header": {
++        "background": "#241d00",
++        "border": "#383838",
++        "focusedBackground": "#3a2f00",
++        "focusedBorder": "#464646",
++        "focusedText": "#84c1ff",
++        "text": "#ffffff"
++      },
++      "input": {
++        "background": "#141105",
++        "backgroundPulse": "#245424",
++        "searchFailText": "#ff0000",
++        "searchHighlightBackground": "#506e6eff",
++        "text": "#ffffff"
++      },
++      "messageSeperator": "#3c3c3c",
++      "resizeHandle": "#700094ff",
++      "resizeHandleBackground": "#200094ff"
++    },
++    "tabs": {
++      "liveIndicator": "#ff0000",
++      "rerunIndicator": "#c7c715",
++      "dividerLine": "#555555",
++      "highlighted": {
++        "backgrounds": {
++          "hover": "#252525",
++          "regular": "#252525",
++          "unfocused": "#252525"
++        },
++        "line": {
++          "hover": "#ffd700",
++          "regular": "#ffd700",
++          "unfocused": "#ffd700"
++        },
++        "text": "#eeeeee"
++      },
++      "newMessage": {
++        "backgrounds": {
++          "hover": "#252525",
++          "regular": "#252525",
++          "unfocused": "#252525"
++        },
++        "line": {
++          "hover": "#888888",
++          "regular": "#888888",
++          "unfocused": "#888888"
++        },
++        "text": "#eeeeee"
++      },
++      "regular": {
++        "backgrounds": {
++          "hover": "#252525",
++          "regular": "#252525",
++          "unfocused": "#252525"
++        },
++        "line": {
++          "hover": "#444444",
++          "regular": "#444444",
++          "unfocused": "#444444"
++        },
++        "text": "#c9b896"
++      },
++      "selected": {
++        "backgrounds": {
++          "hover": "#2e2800",
++          "regular": "#2e2800",
++          "unfocused": "#2e2800"
++        },
++        "line": {
++          "hover": "#ffd700",
++          "regular": "#ffd700",
++          "unfocused": "#ffd700"
++        },
++        "text": "#ffffff"
++      }
++    },
++    "window": {
++      "background": "#0d0c05",
++      "text": "#eeeeee"
++    }
++  }
++}
+diff --git a/resources/themes/SmartTV-StPatricks.json b/resources/themes/SmartTV-StPatricks.json
+new file mode 100644
+index 0000000..0370517
+--- /dev/null
++++ b/resources/themes/SmartTV-StPatricks.json
+@@ -0,0 +1,133 @@
++{
++  "$schema": "../../docs/ChatterinoTheme.schema.json",
++  "metadata": {
++    "iconTheme": "light"
++  },
++  "colors": {
++    "accent": "#00c853",
++    "messages": {
++      "backgrounds": {
++        "alternate": "#0a1f12",
++        "regular": "#04120a"
++      },
++      "disabled": "#99191919",
++      "highlightAnimationEnd": "#00e6e6e6",
++      "highlightAnimationStart": "#6ee6e6e6",
++      "selection": "#40ffffff",
++      "textColors": {
++        "caret": "#ffffff",
++        "chatPlaceholder": "#5d5555",
++        "link": "#4ade80",
++        "regular": "#ffffff",
++        "system": "#8c7f7f"
++      }
++    },
++    "overlayMessages": {
++      "backgrounds": {
++        "alternate": "#32000000",
++        "regular": "transparent"
++      },
++      "disabled": "#64000000",
++      "selection": "#40ffffff",
++      "textColors": {
++        "caret": "#ffffff",
++        "chatPlaceholder": "#5d5555",
++        "link": "#4ade80",
++        "regular": "#ffffff",
++        "system": "#8c7f7f"
++      },
++      "background": "#000"
++    },
++    "scrollbars": {
++      "background": "#00000000",
++      "thumb": "#2e7a4a",
++      "thumbSelected": "#2e7a4a"
++    },
++    "splits": {
++      "background": "#04120a",
++      "dropPreview": "#300094ff",
++      "dropPreviewBorder": "#0094ff",
++      "dropTargetRect": "#000094ff",
++      "dropTargetRectBorder": "#000094ff",
++      "header": {
++        "background": "#0d2a16",
++        "border": "#383838",
++        "focusedBackground": "#14522a",
++        "focusedBorder": "#464646",
++        "focusedText": "#84c1ff",
++        "text": "#ffffff"
++      },
++      "input": {
++        "background": "#071a0e",
++        "backgroundPulse": "#245424",
++        "searchFailText": "#ff0000",
++        "searchHighlightBackground": "#506e6eff",
++        "text": "#ffffff"
++      },
++      "messageSeperator": "#3c3c3c",
++      "resizeHandle": "#700094ff",
++      "resizeHandleBackground": "#200094ff"
++    },
++    "tabs": {
++      "liveIndicator": "#ff0000",
++      "rerunIndicator": "#c7c715",
++      "dividerLine": "#555555",
++      "highlighted": {
++        "backgrounds": {
++          "hover": "#252525",
++          "regular": "#252525",
++          "unfocused": "#252525"
++        },
++        "line": {
++          "hover": "#00c853",
++          "regular": "#00c853",
++          "unfocused": "#00c853"
++        },
++        "text": "#eeeeee"
++      },
++      "newMessage": {
++        "backgrounds": {
++          "hover": "#252525",
++          "regular": "#252525",
++          "unfocused": "#252525"
++        },
++        "line": {
++          "hover": "#888888",
++          "regular": "#888888",
++          "unfocused": "#888888"
++        },
++        "text": "#eeeeee"
++      },
++      "regular": {
++        "backgrounds": {
++          "hover": "#252525",
++          "regular": "#252525",
++          "unfocused": "#252525"
++        },
++        "line": {
++          "hover": "#444444",
++          "regular": "#444444",
++          "unfocused": "#444444"
++        },
++        "text": "#a8d8b5"
++      },
++      "selected": {
++        "backgrounds": {
++          "hover": "#0f2e1a",
++          "regular": "#0f2e1a",
++          "unfocused": "#0f2e1a"
++        },
++        "line": {
++          "hover": "#00c853",
++          "regular": "#00c853",
++          "unfocused": "#00c853"
++        },
++        "text": "#ffffff"
++      }
++    },
++    "window": {
++      "background": "#04120a",
++      "text": "#eeeeee"
++    }
++  }
++}
+diff --git a/resources/themes/SmartTV-Thanksgiving.json b/resources/themes/SmartTV-Thanksgiving.json
+new file mode 100644
+index 0000000..8af2b71
+--- /dev/null
++++ b/resources/themes/SmartTV-Thanksgiving.json
+@@ -0,0 +1,133 @@
++{
++  "$schema": "../../docs/ChatterinoTheme.schema.json",
++  "metadata": {
++    "iconTheme": "light"
++  },
++  "colors": {
++    "accent": "#d2691e",
++    "messages": {
++      "backgrounds": {
++        "alternate": "#1d1005",
++        "regular": "#0f0803"
++      },
++      "disabled": "#99191919",
++      "highlightAnimationEnd": "#00e6e6e6",
++      "highlightAnimationStart": "#6ee6e6e6",
++      "selection": "#40ffffff",
++      "textColors": {
++        "caret": "#ffffff",
++        "chatPlaceholder": "#5d5555",
++        "link": "#e8a34c",
++        "regular": "#ffffff",
++        "system": "#8c7f7f"
++      }
++    },
++    "overlayMessages": {
++      "backgrounds": {
++        "alternate": "#32000000",
++        "regular": "transparent"
++      },
++      "disabled": "#64000000",
++      "selection": "#40ffffff",
++      "textColors": {
++        "caret": "#ffffff",
++        "chatPlaceholder": "#5d5555",
++        "link": "#e8a34c",
++        "regular": "#ffffff",
++        "system": "#8c7f7f"
++      },
++      "background": "#000"
++    },
++    "scrollbars": {
++      "background": "#00000000",
++      "thumb": "#8a6a3a",
++      "thumbSelected": "#8a6a3a"
++    },
++    "splits": {
++      "background": "#0f0803",
++      "dropPreview": "#300094ff",
++      "dropPreviewBorder": "#0094ff",
++      "dropTargetRect": "#000094ff",
++      "dropTargetRectBorder": "#000094ff",
++      "header": {
++        "background": "#2a1a08",
++        "border": "#383838",
++        "focusedBackground": "#402a12",
++        "focusedBorder": "#464646",
++        "focusedText": "#84c1ff",
++        "text": "#ffffff"
++      },
++      "input": {
++        "background": "#140b04",
++        "backgroundPulse": "#245424",
++        "searchFailText": "#ff0000",
++        "searchHighlightBackground": "#506e6eff",
++        "text": "#ffffff"
++      },
++      "messageSeperator": "#3c3c3c",
++      "resizeHandle": "#700094ff",
++      "resizeHandleBackground": "#200094ff"
++    },
++    "tabs": {
++      "liveIndicator": "#ff0000",
++      "rerunIndicator": "#c7c715",
++      "dividerLine": "#555555",
++      "highlighted": {
++        "backgrounds": {
++          "hover": "#252525",
++          "regular": "#252525",
++          "unfocused": "#252525"
++        },
++        "line": {
++          "hover": "#d2691e",
++          "regular": "#d2691e",
++          "unfocused": "#d2691e"
++        },
++        "text": "#eeeeee"
++      },
++      "newMessage": {
++        "backgrounds": {
++          "hover": "#252525",
++          "regular": "#252525",
++          "unfocused": "#252525"
++        },
++        "line": {
++          "hover": "#888888",
++          "regular": "#888888",
++          "unfocused": "#888888"
++        },
++        "text": "#eeeeee"
++      },
++      "regular": {
++        "backgrounds": {
++          "hover": "#252525",
++          "regular": "#252525",
++          "unfocused": "#252525"
++        },
++        "line": {
++          "hover": "#444444",
++          "regular": "#444444",
++          "unfocused": "#444444"
++        },
++        "text": "#d8bfa0"
++      },
++      "selected": {
++        "backgrounds": {
++          "hover": "#33220a",
++          "regular": "#33220a",
++          "unfocused": "#33220a"
++        },
++        "line": {
++          "hover": "#d2691e",
++          "regular": "#d2691e",
++          "unfocused": "#d2691e"
++        },
++        "text": "#ffffff"
++      }
++    },
++    "window": {
++      "background": "#0f0803",
++      "text": "#eeeeee"
++    }
++  }
++}
+diff --git a/resources/themes/SmartTV-Valentines.json b/resources/themes/SmartTV-Valentines.json
+new file mode 100644
+index 0000000..725bc3f
+--- /dev/null
++++ b/resources/themes/SmartTV-Valentines.json
+@@ -0,0 +1,133 @@
++{
++  "$schema": "../../docs/ChatterinoTheme.schema.json",
++  "metadata": {
++    "iconTheme": "light"
++  },
++  "colors": {
++    "accent": "#ff4d6d",
++    "messages": {
++      "backgrounds": {
++        "alternate": "#1e0a10",
++        "regular": "#120608"
++      },
++      "disabled": "#99191919",
++      "highlightAnimationEnd": "#00e6e6e6",
++      "highlightAnimationStart": "#6ee6e6e6",
++      "selection": "#40ffffff",
++      "textColors": {
++        "caret": "#ffffff",
++        "chatPlaceholder": "#5d5555",
++        "link": "#ff8fa3",
++        "regular": "#ffffff",
++        "system": "#8c7f7f"
++      }
++    },
++    "overlayMessages": {
++      "backgrounds": {
++        "alternate": "#32000000",
++        "regular": "transparent"
++      },
++      "disabled": "#64000000",
++      "selection": "#40ffffff",
++      "textColors": {
++        "caret": "#ffffff",
++        "chatPlaceholder": "#5d5555",
++        "link": "#ff8fa3",
++        "regular": "#ffffff",
++        "system": "#8c7f7f"
++      },
++      "background": "#000"
++    },
++    "scrollbars": {
++      "background": "#00000000",
++      "thumb": "#8a3a4a",
++      "thumbSelected": "#8a3a4a"
++    },
++    "splits": {
++      "background": "#120608",
++      "dropPreview": "#300094ff",
++      "dropPreviewBorder": "#0094ff",
++      "dropTargetRect": "#000094ff",
++      "dropTargetRectBorder": "#000094ff",
++      "header": {
++        "background": "#2a0d16",
++        "border": "#383838",
++        "focusedBackground": "#471223",
++        "focusedBorder": "#464646",
++        "focusedText": "#84c1ff",
++        "text": "#ffffff"
++      },
++      "input": {
++        "background": "#1a080e",
++        "backgroundPulse": "#245424",
++        "searchFailText": "#ff0000",
++        "searchHighlightBackground": "#506e6eff",
++        "text": "#ffffff"
++      },
++      "messageSeperator": "#3c3c3c",
++      "resizeHandle": "#700094ff",
++      "resizeHandleBackground": "#200094ff"
++    },
++    "tabs": {
++      "liveIndicator": "#ff0000",
++      "rerunIndicator": "#c7c715",
++      "dividerLine": "#555555",
++      "highlighted": {
++        "backgrounds": {
++          "hover": "#252525",
++          "regular": "#252525",
++          "unfocused": "#252525"
++        },
++        "line": {
++          "hover": "#ff4d6d",
++          "regular": "#ff4d6d",
++          "unfocused": "#ff4d6d"
++        },
++        "text": "#eeeeee"
++      },
++      "newMessage": {
++        "backgrounds": {
++          "hover": "#252525",
++          "regular": "#252525",
++          "unfocused": "#252525"
++        },
++        "line": {
++          "hover": "#888888",
++          "regular": "#888888",
++          "unfocused": "#888888"
++        },
++        "text": "#eeeeee"
++      },
++      "regular": {
++        "backgrounds": {
++          "hover": "#252525",
++          "regular": "#252525",
++          "unfocused": "#252525"
++        },
++        "line": {
++          "hover": "#444444",
++          "regular": "#444444",
++          "unfocused": "#444444"
++        },
++        "text": "#d8aab5"
++      },
++      "selected": {
++        "backgrounds": {
++          "hover": "#33101c",
++          "regular": "#33101c",
++          "unfocused": "#33101c"
++        },
++        "line": {
++          "hover": "#ff4d6d",
++          "regular": "#ff4d6d",
++          "unfocused": "#ff4d6d"
++        },
++        "text": "#ffffff"
++      }
++    },
++    "window": {
++      "background": "#120608",
++      "text": "#eeeeee"
++    }
++  }
++}
+diff --git a/resources/themes/SmartTV.json b/resources/themes/SmartTV.json
+new file mode 100644
+index 0000000..f794cbb
+--- /dev/null
++++ b/resources/themes/SmartTV.json
+@@ -0,0 +1,133 @@
++{
++  "$schema": "../../docs/ChatterinoTheme.schema.json",
++  "metadata": {
++    "iconTheme": "light"
++  },
++  "colors": {
++    "accent": "#e62117",
++    "messages": {
++      "backgrounds": {
++        "alternate": "#141414",
++        "regular": "#0a0a0a"
++      },
++      "disabled": "#99191919",
++      "highlightAnimationEnd": "#00e6e6e6",
++      "highlightAnimationStart": "#6ee6e6e6",
++      "selection": "#40ffffff",
++      "textColors": {
++        "caret": "#ffffff",
++        "chatPlaceholder": "#5d5555",
++        "link": "#4da3ff",
++        "regular": "#ffffff",
++        "system": "#8c7f7f"
++      }
++    },
++    "overlayMessages": {
++      "backgrounds": {
++        "alternate": "#32000000",
++        "regular": "transparent"
++      },
++      "disabled": "#64000000",
++      "selection": "#40ffffff",
++      "textColors": {
++        "caret": "#ffffff",
++        "chatPlaceholder": "#5d5555",
++        "link": "#4da3ff",
++        "regular": "#ffffff",
++        "system": "#8c7f7f"
++      },
++      "background": "#000"
++    },
++    "scrollbars": {
++      "background": "#00000000",
++      "thumb": "#666666",
++      "thumbSelected": "#666666"
++    },
++    "splits": {
++      "background": "#0a0a0a",
++      "dropPreview": "#300094ff",
++      "dropPreviewBorder": "#0094ff",
++      "dropTargetRect": "#000094ff",
++      "dropTargetRectBorder": "#000094ff",
++      "header": {
++        "background": "#1c1c1c",
++        "border": "#383838",
++        "focusedBackground": "#333333",
++        "focusedBorder": "#464646",
++        "focusedText": "#84c1ff",
++        "text": "#ffffff"
++      },
++      "input": {
++        "background": "#161616",
++        "backgroundPulse": "#245424",
++        "searchFailText": "#ff0000",
++        "searchHighlightBackground": "#506e6eff",
++        "text": "#ffffff"
++      },
++      "messageSeperator": "#3c3c3c",
++      "resizeHandle": "#700094ff",
++      "resizeHandleBackground": "#200094ff"
++    },
++    "tabs": {
++      "liveIndicator": "#ff0000",
++      "rerunIndicator": "#c7c715",
++      "dividerLine": "#555555",
++      "highlighted": {
++        "backgrounds": {
++          "hover": "#252525",
++          "regular": "#252525",
++          "unfocused": "#252525"
++        },
++        "line": {
++          "hover": "#e62117",
++          "regular": "#e62117",
++          "unfocused": "#e62117"
++        },
++        "text": "#eeeeee"
++      },
++      "newMessage": {
++        "backgrounds": {
++          "hover": "#252525",
++          "regular": "#252525",
++          "unfocused": "#252525"
++        },
++        "line": {
++          "hover": "#888888",
++          "regular": "#888888",
++          "unfocused": "#888888"
++        },
++        "text": "#eeeeee"
++      },
++      "regular": {
++        "backgrounds": {
++          "hover": "#252525",
++          "regular": "#252525",
++          "unfocused": "#252525"
++        },
++        "line": {
++          "hover": "#444444",
++          "regular": "#444444",
++          "unfocused": "#444444"
++        },
++        "text": "#bbbbbb"
++      },
++      "selected": {
++        "backgrounds": {
++          "hover": "#2b2b2b",
++          "regular": "#2b2b2b",
++          "unfocused": "#2b2b2b"
++        },
++        "line": {
++          "hover": "#e62117",
++          "regular": "#e62117",
++          "unfocused": "#e62117"
++        },
++        "text": "#ffffff"
++      }
++    },
++    "window": {
++      "background": "#000000",
++      "text": "#eeeeee"
++    }
++  }
++}
+diff --git a/src/CMakeLists.txt b/src/CMakeLists.txt
+index 40ebbad..c22f38a 100644
+--- a/src/CMakeLists.txt
++++ b/src/CMakeLists.txt
+@@ -761,6 +761,8 @@ set(SOURCE_FILES
+         widgets/PluginRepl.hpp
+         widgets/Scrollbar.cpp
+         widgets/Scrollbar.hpp
++        widgets/SmartTv.cpp
++        widgets/SmartTv.hpp
+         widgets/TooltipEntryWidget.cpp
+         widgets/TooltipEntryWidget.hpp
+         widgets/TooltipWidget.cpp
+diff --git a/src/singletons/Settings.hpp b/src/singletons/Settings.hpp
+index afb0266..b38694b 100644
+--- a/src/singletons/Settings.hpp
++++ b/src/singletons/Settings.hpp
+@@ -462,6 +462,13 @@ public:
+         false,
+     };
+ 
++    // Smart TV edition: on-screen remote + 2s channel-change static.
++    // On by default; untick in Settings -> General -> Messages to hide it.
++    BoolSetting smartTvMode = {
++        "/appearance/smartTvMode",
++        true,
++    };
++
+     BoolSetting enableSpellChecking = {
+         "/behaviour/spellChecking/enabled",
+         false,
+diff --git a/src/singletons/Theme.cpp b/src/singletons/Theme.cpp
+index 3e499b9..6005619 100644
+--- a/src/singletons/Theme.cpp
++++ b/src/singletons/Theme.cpp
+@@ -12,6 +12,8 @@
+ 
+ #include <QApplication>
+ #include <QColor>
++#include <QDate>
++#include <QDateTime>
+ #include <QDir>
+ #include <QElapsedTimer>
+ #include <QFile>
+@@ -71,6 +73,85 @@ void parseInto(const QJsonObject &obj, const QJsonObject &fallbackObj,
+                                   "current theme, and no fallback value found.";
+ }
+ 
++// --- Smart TV auto holiday theme ---------------------------------------
++// One primary holiday per month (USA), whole month = that holiday's look.
++// August has no holiday: the default Smart TV theme. Easter is computed
++// with the Gregorian computus, so in Easter-in-March years March is
++// Easter and April falls back to the default theme.
++//
++// Test/preview hook (no settings UI): set the environment variable
++// CHATTERINO_SMARTTV_HOLIDAY_MONTH=1..12 before launching and the app
++// previews that month (current year is used for the Easter computus).
++
++/// Month (3 = March, 4 = April) Easter falls in for the given year.
++/// Anonymous Gregorian computus. Verified: 2024 -> Mar 31, 2026 -> Apr 5,
++// 2027 -> Mar 28.
++int easterMonthForYear(int year)
++{
++    int a = year % 19;
++    int b = year / 100;
++    int c = year % 100;
++    int d = b / 4;
++    int e = b % 4;
++    int f = (b + 8) / 25;
++    int g = (b - f + 1) / 3;
++    int h = (19 * a + b - d - g + 15) % 30;
++    int i = c / 4;
++    int k = c % 4;
++    int l = (32 + 2 * e + 2 * i - h - k) % 7;
++    int m = (a + 11 * h + 22 * l) / 451;
++    return (h + l - 7 * m + 114) / 31;
++}
++
++QString smartTvHolidayThemeKey(const QDate &date)
++{
++    int month = date.month();
++    int year = date.year();
++
++    // Preview hook: CHATTERINO_SMARTTV_HOLIDAY_MONTH=1..12
++    bool ok = false;
++    int previewMonth =
++        qEnvironmentVariable("CHATTERINO_SMARTTV_HOLIDAY_MONTH").toInt(&ok);
++    if (ok && previewMonth >= 1 && previewMonth <= 12)
++    {
++        month = previewMonth;
++    }
++
++    // Easter wins over the fixed holiday of its month.
++    if (month == easterMonthForYear(year))
++    {
++        return QStringLiteral("SmartTV-Easter");
++    }
++
++    switch (month)
++    {
++        case 1:
++            return QStringLiteral("SmartTV-NewYears");
++        case 2:
++            return QStringLiteral("SmartTV-Valentines");
++        case 3:
++            return QStringLiteral("SmartTV-StPatricks");
++        case 5:
++            return QStringLiteral("SmartTV-Memorial");
++        case 6:
++            return QStringLiteral("SmartTV-Juneteenth");
++        case 7:
++            return QStringLiteral("SmartTV-Independence");
++        case 9:
++            return QStringLiteral("SmartTV-Labor");
++        case 10:
++            return QStringLiteral("SmartTV-Halloween");
++        case 11:
++            return QStringLiteral("SmartTV-Thanksgiving");
++        case 12:
++            return QStringLiteral("SmartTV-Christmas");
++        case 4:  // April: Easter, or default when Easter was in March
++        case 8:  // August: no holiday
++        default:
++            return QStringLiteral("SmartTV");
++    }
++}
++
+ // NOLINTBEGIN(cppcoreguidelines-macro-usage)
+ #define _c2StringLit(s, ty) s##ty
+ #define parseColor(to, from, key) \
+@@ -294,6 +375,66 @@ const std::vector<ThemeDescriptor> Theme::builtInThemes{
+         .path = ":/themes/Dark.json",
+         .name = "Dark",
+     },
++    {
++        .key = "SmartTV",
++        .path = ":/themes/SmartTV.json",
++        .name = "Smart TV",
++    },
++    {
++        .key = "SmartTV-NewYears",
++        .path = ":/themes/SmartTV-NewYears.json",
++        .name = "Smart TV - New Year's",
++    },
++    {
++        .key = "SmartTV-Valentines",
++        .path = ":/themes/SmartTV-Valentines.json",
++        .name = "Smart TV - Valentine's",
++    },
++    {
++        .key = "SmartTV-StPatricks",
++        .path = ":/themes/SmartTV-StPatricks.json",
++        .name = "Smart TV - St Patrick's",
++    },
++    {
++        .key = "SmartTV-Easter",
++        .path = ":/themes/SmartTV-Easter.json",
++        .name = "Smart TV - Easter",
++    },
++    {
++        .key = "SmartTV-Memorial",
++        .path = ":/themes/SmartTV-Memorial.json",
++        .name = "Smart TV - Memorial Day",
++    },
++    {
++        .key = "SmartTV-Juneteenth",
++        .path = ":/themes/SmartTV-Juneteenth.json",
++        .name = "Smart TV - Juneteenth",
++    },
++    {
++        .key = "SmartTV-Independence",
++        .path = ":/themes/SmartTV-Independence.json",
++        .name = "Smart TV - Independence Day",
++    },
++    {
++        .key = "SmartTV-Labor",
++        .path = ":/themes/SmartTV-Labor.json",
++        .name = "Smart TV - Labor Day",
++    },
++    {
++        .key = "SmartTV-Halloween",
++        .path = ":/themes/SmartTV-Halloween.json",
++        .name = "Smart TV - Halloween",
++    },
++    {
++        .key = "SmartTV-Thanksgiving",
++        .path = ":/themes/SmartTV-Thanksgiving.json",
++        .name = "Smart TV - Thanksgiving",
++    },
++    {
++        .key = "SmartTV-Christmas",
++        .path = ":/themes/SmartTV-Christmas.json",
++        .name = "Smart TV - Christmas",
++    },
+     {
+         .key = "Black",
+         .path = ":/themes/Black.json",
+@@ -343,6 +484,11 @@ Theme::Theme(const Paths &paths)
+                      });
+ 
+     this->update();
++
++    // Smart TV: pick this month's holiday theme on startup, and re-check
++    // at the next month boundary. No-op unless a Smart TV theme is active.
++    this->checkSmartTvHolidayTheme();
++    this->scheduleSmartTvHolidayCheck();
+ }
+ 
+ void Theme::update()
+@@ -436,6 +582,44 @@ void Theme::update()
+     }
+ }
+ 
++void Theme::checkSmartTvHolidayTheme()
++{
++    QString current = this->themeName.getValue();
++    // Only auto-swap inside the Smart TV family. If the user picked
++    // Dark, Light, or any other theme, leave their choice alone.
++    if (!current.startsWith(QStringLiteral("SmartTV")))
++    {
++        return;
++    }
++    QString wanted = smartTvHolidayThemeKey(QDate::currentDate());
++    if (wanted != current)
++    {
++        // Triggers the themeName listener -> update(), no recursion:
++        // update() never calls back into this check.
++        this->themeName.setValue(wanted);
++    }
++}
++
++void Theme::scheduleSmartTvHolidayCheck()
++{
++    // Fire exactly at the next month boundary (local PC time), then
++    // re-arm. No polling, no wakeups in between.
++    QDateTime now = QDateTime::currentDateTime();
++    // 1st of next month, local PC time (Dec rolls to Jan next year).
++    QDate firstOfNextMonth =
++        QDate(now.date().year(), now.date().month(), 1).addMonths(1);
++    QDateTime boundary(firstOfNextMonth, QTime(0, 0, 0));
++    qint64 msUntil = now.msecsTo(boundary);
++    if (msUntil < 0)
++    {
++        msUntil = 0;
++    }
++    QTimer::singleShot(static_cast<int>(msUntil), &this->lifetime_, [this] {
++        this->checkSmartTvHolidayTheme();
++        this->scheduleSmartTvHolidayCheck();
++    });
++}
++
+ std::vector<std::pair<QString, QVariant>> Theme::availableThemes() const
+ {
+     std::vector<std::pair<QString, QVariant>> packagedThemes;
+diff --git a/src/singletons/Theme.hpp b/src/singletons/Theme.hpp
+index ddfb34a..722f906 100644
+--- a/src/singletons/Theme.hpp
++++ b/src/singletons/Theme.hpp
+@@ -168,6 +168,16 @@ public:
+     void normalizeColor(QColor &color) const;
+     void update();
+ 
++    /**
++     * Smart TV auto holiday theme: pick the Smart TV theme for the
++     * current month (PC date) and switch to it, but only when the
++     * current theme is already a Smart TV theme - a user's other
++     * theme choice is never overridden. Also re-arms the check for
++     * the next month boundary.
++     **/
++    void checkSmartTvHolidayTheme();
++    void scheduleSmartTvHolidayCheck();
++
+     bool isAutoReloading() const;
+     void setAutoReload(bool autoReload);
+ 
+@@ -178,7 +188,7 @@ public:
+ 
+     pajlada::Signals::NoArgSignal updated;
+ 
+-    QStringSetting themeName{"/appearance/theme/name", "Dark"};
++    QStringSetting themeName{"/appearance/theme/name", "SmartTV"};
+     QStringSetting lightSystemThemeName{"/appearance/theme/lightSystem",
+                                         "Light"};
+     QStringSetting darkSystemThemeName{"/appearance/theme/darkSystem", "Dark"};
+diff --git a/src/widgets/Notebook.cpp b/src/widgets/Notebook.cpp
+index 77a64ae..e47d36a 100644
+--- a/src/widgets/Notebook.cpp
++++ b/src/widgets/Notebook.cpp
+@@ -1767,6 +1767,11 @@ SplitContainer *SplitNotebook::getSelectedPage()
+ 
+ void SplitNotebook::select(QWidget *page, bool focusPage, bool recordInHistory)
+ {
++    // Smart TV: remember the page we are leaving. A real tab switch is
++    // old != null, new != null, old != new. Startup (no previous page)
++    // and tab closes (new page is null) never trigger the TV effects.
++    QWidget *previousPage = this->getSelectedPage();
++
+     // If there's a previously selected page, go through its splits and
+     // update their "last read message" indicator
+     if (auto *selectedPage = this->getSelectedPage())
+@@ -1781,6 +1786,16 @@ void SplitNotebook::select(QWidget *page, bool focusPage, bool recordInHistory)
+     }
+ 
+     this->Notebook::select(page, focusPage, recordInHistory);
++
++    // The switch itself is already done at this point - the effects
++    // below can never block or delay it.
++    if (previousPage != nullptr && page != nullptr && previousPage != page)
++    {
++        if (auto *window = qobject_cast<Window *>(this->parentWidget()))
++        {
++            window->onSmartTvTabChanged();
++        }
++    }
+ }
+ 
+ void SplitNotebook::forEachSplit(const std::function<void(Split *)> &cb)
+diff --git a/src/widgets/SmartTv.cpp b/src/widgets/SmartTv.cpp
+new file mode 100644
+index 0000000..ed8dc3c
+--- /dev/null
++++ b/src/widgets/SmartTv.cpp
+@@ -0,0 +1,291 @@
++// SPDX-FileCopyrightText: 2026 Contributors to Chatterino <https://chatterino.com>
++//
++// SPDX-License-Identifier: MIT
++
++#include "widgets/SmartTv.hpp"
++
++#include "singletons/Theme.hpp"
++#include "widgets/Notebook.hpp"
++
++#include <QGraphicsOpacityEffect>
++#include <QHBoxLayout>
++
++#include <algorithm>
++#include <QPainter>
++#include <QPropertyAnimation>
++#include <QRandomGenerator>
++#include <QVBoxLayout>
++
++namespace chatterino {
++
++namespace {
++
++// Static is drawn from a small noise image and scaled up: cheap to
++// regenerate every frame, and it still looks like analogue TV static.
++constexpr int NOISE_WIDTH = 320;
++constexpr int NOISE_HEIGHT = 180;
++constexpr int STATIC_FRAME_MS = 50;      // 20fps
++constexpr int STATIC_DURATION_MS = 2000; // exactly ~2 seconds per spec
++constexpr int CHANNEL_UP_GLOW_MS = 1500;
++
++// Boot splash: on screen for ~2.5 s, then a short fade into the chats.
++constexpr int BOOT_HOLD_MS = 2500;
++constexpr int BOOT_FADE_MS = 400;
++constexpr int BOOT_FRAME_MS = 50;
++
++QString channelUpStyle(const QColor &glow)
++{
++    return QStringLiteral(
++               "QPushButton { background-color: %1; color: #ffffff; "
++               "border: 3px solid #ffffff; border-radius: 10px; "
++               "font-size: 22px; font-weight: bold; padding: 6px 18px; }")
++        .arg(glow.name());
++}
++
++constexpr auto CHANNEL_UP_REST_STYLE =
++    "QPushButton { background-color: #222222; color: #ffffff; "
++    "border: 2px solid #555555; border-radius: 10px; "
++    "font-size: 22px; font-weight: bold; padding: 6px 18px; }"
++    "QPushButton:hover { background-color: #333333; }";
++
++constexpr auto REMOTE_BUTTON_STYLE =
++    "QPushButton { background-color: #222222; color: #ffffff; "
++    "border: 2px solid #555555; border-radius: 10px; "
++    "font-size: 18px; font-weight: bold; padding: 6px 14px; }"
++    "QPushButton:hover { background-color: #333333; }";
++
++}  // namespace
++
++SmartTvRemote::SmartTvRemote(Notebook *notebook, QWidget *parent)
++    : QWidget(parent)
++    , notebook_(notebook)
++{
++    auto *layout = new QHBoxLayout(this);
++    layout->setContentsMargins(12, 6, 12, 6);
++    layout->setSpacing(10);
++
++    auto *powerButton = new QPushButton(QStringLiteral("\u23fb"), this);
++    powerButton->setToolTip("Minimise the window");
++    powerButton->setStyleSheet(REMOTE_BUTTON_STYLE);
++    QObject::connect(powerButton, &QPushButton::clicked, this, [this] {
++        if (auto *window = this->window())
++        {
++            window->showMinimized();
++        }
++    });
++    layout->addWidget(powerButton);
++
++    auto *tvLabel = new QLabel(QStringLiteral("SMART TV"), this);
++    tvLabel->setStyleSheet(
++        "color: #ffffff; font-size: 16px; font-weight: bold;");
++    layout->addWidget(tvLabel);
++
++    layout->addStretch();
++
++    this->channelLabel_ = new QLabel(QStringLiteral("CH 1"), this);
++    this->channelLabel_->setStyleSheet(
++        "color: #ffffff; font-size: 20px; font-weight: bold;");
++    layout->addWidget(this->channelLabel_);
++
++    this->channelDownButton_ = new QPushButton(QStringLiteral("CH-"), this);
++    this->channelDownButton_->setToolTip("Previous channel (tab)");
++    this->channelDownButton_->setStyleSheet(REMOTE_BUTTON_STYLE);
++    QObject::connect(this->channelDownButton_, &QPushButton::clicked, this,
++                     [this] {
++                         this->notebook_->selectPreviousTab();
++                     });
++    layout->addWidget(this->channelDownButton_);
++
++    this->channelUpButton_ = new QPushButton(QStringLiteral("CH+"), this);
++    this->channelUpButton_->setToolTip("Next channel (tab)");
++    this->channelUpButton_->setStyleSheet(CHANNEL_UP_REST_STYLE);
++    QObject::connect(this->channelUpButton_, &QPushButton::clicked, this,
++                     [this] {
++                         this->notebook_->selectNextTab();
++                     });
++    layout->addWidget(this->channelUpButton_);
++
++    this->setStyleSheet("background-color: #0a0a0a;");
++    this->setFixedHeight(64);
++}
++
++void SmartTvRemote::flashChannelUp()
++{
++    // Glow colour follows the current theme accent, so the remote glow
++    // follows the auto holiday theme (gold in January, pink in February,
++    // orange in October, ...).
++    this->channelUpButton_->setStyleSheet(
++        channelUpStyle(getTheme()->accent));
++    this->updateChannelLabel();
++    QTimer::singleShot(CHANNEL_UP_GLOW_MS, this,
++                       [this] { this->restoreChannelUpStyle(); });
++}
++
++void SmartTvRemote::restoreChannelUpStyle()
++{
++    this->channelUpButton_->setStyleSheet(CHANNEL_UP_REST_STYLE);
++}
++
++void SmartTvRemote::updateChannelLabel()
++{
++    int index = this->notebook_->getSelectedIndex();
++    this->channelLabel_->setText(
++        QStringLiteral("CH %1").arg(index >= 0 ? index + 1 : 1));
++}
++
++SmartTvStaticOverlay::SmartTvStaticOverlay(QWidget *parent)
++    : QWidget(parent)
++    , noise_(NOISE_WIDTH, NOISE_HEIGHT, QImage::Format_RGB32)
++{
++    // Never eat mouse clicks: the user can keep switching tabs while
++    // static is showing, and each switch just restarts the 2s timer.
++    this->setAttribute(Qt::WA_TransparentForMouseEvents, true);
++    this->hide();
++
++    this->frameTimer_.setInterval(STATIC_FRAME_MS);
++    QObject::connect(&this->frameTimer_, &QTimer::timeout, this, [this] {
++        this->regenerateNoise();
++        this->update();
++    });
++
++    this->hideTimer_.setSingleShot(true);
++    QObject::connect(&this->hideTimer_, &QTimer::timeout, this, [this] {
++        this->frameTimer_.stop();
++        this->hide();
++    });
++}
++
++void SmartTvStaticOverlay::showStatic()
++{
++    if (this->parentWidget() == nullptr)
++    {
++        return;
++    }
++    this->setGeometry(this->parentWidget()->rect());
++    this->raise();
++    this->regenerateNoise();
++    this->show();
++    this->frameTimer_.start();
++    // Restartable: a tab change during static restarts the full 2s.
++    this->hideTimer_.start(STATIC_DURATION_MS);
++}
++
++void SmartTvStaticOverlay::regenerateNoise()
++{
++    auto *bits = reinterpret_cast<QRgb *>(this->noise_.bits());
++    const int count = NOISE_WIDTH * NOISE_HEIGHT;
++    for (int i = 0; i < count; ++i)
++    {
++        int grey = QRandomGenerator::global()->bounded(256);
++        bits[i] = qRgb(grey, grey, grey);
++    }
++}
++
++void SmartTvStaticOverlay::paintEvent(QPaintEvent * /*event*/)
++{
++    QPainter painter(this);
++    painter.drawImage(this->rect(), this->noise_);
++}
++
++SmartTvBootScreen::SmartTvBootScreen(QWidget *parent)
++    : QWidget(parent)
++{
++    // Plain black TV screen. Text only, no emoji - a TV boot logo
++    // must render in any font, and emoji fallback is not guaranteed.
++    this->setStyleSheet("background-color: #000000;");
++    this->hide();
++
++    auto *layout = new QVBoxLayout(this);
++    layout->setContentsMargins(20, 20, 20, 20);
++    layout->setSpacing(12);
++    layout->addStretch();
++
++    auto *logoLabel = new QLabel(QStringLiteral("SMART TV"), this);
++    logoLabel->setAlignment(Qt::AlignCenter);
++    logoLabel->setStyleSheet(
++        "color: #ffffff; font-size: 56px; font-weight: bold;");
++    layout->addWidget(logoLabel);
++
++    auto *subLabel = new QLabel(QStringLiteral("CHATTERINO7 TV"), this);
++    subLabel->setAlignment(Qt::AlignCenter);
++    subLabel->setStyleSheet(
++        "color: #e62117; font-size: 22px; font-weight: bold;");
++    layout->addWidget(subLabel);
++
++    this->progressBar_ = new QProgressBar(this);
++    this->progressBar_->setRange(0, 100);
++    this->progressBar_->setValue(0);
++    this->progressBar_->setTextVisible(false);
++    this->progressBar_->setFixedSize(420, 14);
++    this->progressBar_->setStyleSheet(
++        "QProgressBar { background-color: #222222; border: none; "
++        "border-radius: 7px; }"
++        "QProgressBar::chunk { background-color: #e62117; "
++        "border-radius: 7px; }");
++    layout->addWidget(this->progressBar_, 0, Qt::AlignCenter);
++
++    auto *loadingLabel =
++        new QLabel(QStringLiteral("Loading channels..."), this);
++    loadingLabel->setAlignment(Qt::AlignCenter);
++    loadingLabel->setStyleSheet("color: #aaaaaa; font-size: 16px;");
++    layout->addWidget(loadingLabel);
++
++    layout->addStretch();
++
++    // Drives the loading bar and keeps the splash covering the whole
++    // window if it is resized during the boot.
++    QObject::connect(&this->frameTimer_, &QTimer::timeout, this, [this] {
++        if (this->parentWidget() != nullptr)
++        {
++            this->setGeometry(this->parentWidget()->rect());
++            this->raise();
++        }
++        this->progress_ =
++            std::min(100, this->progress_ +
++                              100 * BOOT_FRAME_MS / BOOT_HOLD_MS);
++        this->progressBar_->setValue(this->progress_);
++    });
++    this->frameTimer_.setInterval(BOOT_FRAME_MS);
++}
++
++void SmartTvBootScreen::showBootScreen()
++{
++    if (this->parentWidget() != nullptr)
++    {
++        this->setGeometry(this->parentWidget()->rect());
++    }
++    this->progress_ = 0;
++    this->progressBar_->setValue(0);
++    this->fading_ = false;
++    this->raise();
++    this->show();
++    this->frameTimer_.start();
++    // The fallback timeout: fires no matter what, so the splash can
++    // never stick on loading even if chats are slow to connect.
++    // Chats load underneath the whole time - nothing waits on them.
++    QTimer::singleShot(BOOT_HOLD_MS, this, [this] {
++        this->beginFadeOut();
++    });
++}
++
++void SmartTvBootScreen::beginFadeOut()
++{
++    if (this->fading_)
++    {
++        return;
++    }
++    this->fading_ = true;
++    this->frameTimer_.stop();
++
++    auto *effect = new QGraphicsOpacityEffect(this);
++    this->setGraphicsEffect(effect);
++    auto *animation = new QPropertyAnimation(effect, "opacity", this);
++    animation->setDuration(BOOT_FADE_MS);
++    animation->setStartValue(1.0);
++    animation->setEndValue(0.0);
++    QObject::connect(animation, &QPropertyAnimation::finished, this,
++                     [this] { this->hide(); });
++    animation->start(QAbstractAnimation::DeleteWhenStopped);
++}
++
++}  // namespace chatterino
+diff --git a/src/widgets/SmartTv.hpp b/src/widgets/SmartTv.hpp
+new file mode 100644
+index 0000000..5e40cd5
+--- /dev/null
++++ b/src/widgets/SmartTv.hpp
+@@ -0,0 +1,109 @@
++// SPDX-FileCopyrightText: 2026 Contributors to Chatterino <https://chatterino.com>
++//
++// SPDX-License-Identifier: MIT
++
++#pragma once
++
++#include <QImage>
++#include <QLabel>
++#include <QProgressBar>
++#include <QPushButton>
++#include <QTimer>
++#include <QWidget>
++
++namespace chatterino {
++
++class Notebook;
++
++/**
++ * Smart TV remote bar, shown at the bottom of the main window.
++ *
++ * CH+ / CH- switch tabs exactly like the notebook does (next / previous
++ * visible tab). The power button minimises the window. The channel label
++ * shows the currently selected tab number.
++ *
++ * flashChannelUp() lights the CH+ button up in the current theme accent
++ * colour (so it follows the auto holiday theme) for a short moment.
++ * It is called on every tab change, however the tab was changed.
++ */
++class SmartTvRemote : public QWidget
++{
++    Q_OBJECT
++
++public:
++    SmartTvRemote(Notebook *notebook, QWidget *parent);
++
++    void flashChannelUp();
++    void updateChannelLabel();
++
++private:
++    void restoreChannelUpStyle();
++
++    Notebook *notebook_;
++    QPushButton *channelUpButton_;
++    QPushButton *channelDownButton_;
++    QLabel *channelLabel_;
++};
++
++/**
++ * Animated TV static overlay, shown over the chat area for ~2 seconds
++ * on every tab change.
++ *
++ * The noise is generated live (a small random image, repainted at 20fps
++ * and scaled up), never a still image. It is transparent to mouse events,
++ * so it can never block a click or a further tab switch, and it hides
++ * itself on a timer - it cannot freeze the app.
++ */
++class SmartTvStaticOverlay : public QWidget
++{
++    Q_OBJECT
++
++public:
++    explicit SmartTvStaticOverlay(QWidget *parent);
++
++    /// Show static over the whole parent for ~2 seconds. Restartable:
++    /// calling it again while visible restarts the 2 second timer.
++    void showStatic();
++
++protected:
++    void paintEvent(QPaintEvent *event) override;
++
++private:
++    void regenerateNoise();
++
++    QTimer frameTimer_;
++    QTimer hideTimer_;
++    QImage noise_;
++};
++
++/**
++ * TV boot loading screen, shown on EVERY launch of the main window,
++ * like a real TV being turned on: black screen, SMART TV /
++ * Chatterino7 TV logo, loading bar, then a fade into the chats.
++ *
++ * It never blocks loading: the chats load underneath while the splash
++ * shows (the splash is only a visual cover), and a fixed timer hides
++ * it after ~2.5 s + a short fade no matter what - it can never stick
++ * on loading even if chats are slow to connect.
++ */
++class SmartTvBootScreen : public QWidget
++{
++    Q_OBJECT
++
++public:
++    explicit SmartTvBootScreen(QWidget *parent);
++
++    /// Show the splash and start the boot timer. Safe to call once,
++    /// at window construction - the splash appears when the window does.
++    void showBootScreen();
++
++private:
++    void beginFadeOut();
++
++    QTimer frameTimer_;
++    QProgressBar *progressBar_;
++    int progress_ = 0;
++    bool fading_ = false;
++};
++
++}  // namespace chatterino
+diff --git a/src/widgets/Window.cpp b/src/widgets/Window.cpp
+index a013e70..66dbc8c 100644
+--- a/src/widgets/Window.cpp
++++ b/src/widgets/Window.cpp
+@@ -4,6 +4,8 @@
+ 
+ #include "widgets/Window.hpp"
+ 
++#include "widgets/SmartTv.hpp"
++
+ #include "Application.hpp"
+ #include "common/Args.hpp"
+ #include "common/Common.hpp"
+@@ -67,6 +69,18 @@ Window::Window(WindowType type, QWidget *parent)
+     this->addShortcuts();
+     this->addLayout();
+ 
++    if (type == WindowType::Main)
++    {
++        getSettings()->smartTvMode.connect(
++            [this](bool enabled) {
++                if (this->smartTvRemote_ != nullptr)
++                {
++                    this->smartTvRemote_->setVisible(enabled);
++                }
++            },
++            this->signalHolder_);
++    }
++
+ #ifdef Q_OS_MACOS
+     this->addMenuBar();
+ #endif
+@@ -135,6 +149,27 @@ void Window::showFollowedChannels()
+     window->activateWindow();
+ }
+ 
++void Window::onSmartTvTabChanged()
++{
++    if (this->type_ != WindowType::Main)
++    {
++        return;
++    }
++    if (!getSettings()->smartTvMode.getValue())
++    {
++        return;
++    }
++    if (this->smartTvRemote_ != nullptr)
++    {
++        this->smartTvRemote_->updateChannelLabel();
++        this->smartTvRemote_->flashChannelUp();
++    }
++    if (this->smartTvStatic_ != nullptr)
++    {
++        this->smartTvStatic_->showStatic();
++    }
++}
++
+ void Window::setPopupID(size_t id)
+ {
+     this->popupID_ = id;
+@@ -217,6 +252,28 @@ void Window::addLayout()
+     auto *layout = new QVBoxLayout();
+ 
+     layout->addWidget(this->notebook_);
++
++    if (this->type_ == WindowType::Main)
++    {
++        // Smart TV remote bar under the chat, and the static overlay
++        // as a child of the notebook (it covers the chat area).
++        this->smartTvRemote_ = new SmartTvRemote(this->notebook_, this);
++        this->smartTvRemote_->setVisible(
++            getSettings()->smartTvMode.getValue());
++        layout->addWidget(this->smartTvRemote_);
++
++        this->smartTvStatic_ = new SmartTvStaticOverlay(this->notebook_);
++
++        // TV boot screen on every launch: chats load underneath
++        // while it shows, then it fades into them. Gated on the same
++        // Smart TV switch as the remote + static.
++        this->smartTvBoot_ = new SmartTvBootScreen(this);
++        if (getSettings()->smartTvMode.getValue())
++        {
++            this->smartTvBoot_->showBootScreen();
++        }
++    }
++
+     this->getLayoutContainer()->setLayout(layout);
+ 
+     // set margin
+diff --git a/src/widgets/Window.hpp b/src/widgets/Window.hpp
+index 706fbce..ca52fd2 100644
+--- a/src/widgets/Window.hpp
++++ b/src/widgets/Window.hpp
+@@ -17,6 +17,9 @@ class LabelButton;
+ class Theme;
+ class UpdateDialog;
+ class SplitNotebook;
++class SmartTvRemote;
++class SmartTvStaticOverlay;
++class SmartTvBootScreen;
+ class Channel;
+ 
+ /**
+@@ -35,6 +38,11 @@ public:
+     SplitNotebook &getNotebook();
+     void showFollowedChannels();
+ 
++    // Smart TV: called by SplitNotebook::select() after a real tab
++    // switch. Lights the remote CH+ button and shows 2s of static.
++    // No-op on popup/attached windows and when Smart TV mode is off.
++    void onSmartTvTabChanged();
++
+     void setPopupID(size_t id);
+     std::optional<size_t> popupID() const;
+ 
+@@ -58,6 +66,10 @@ private:
+     WindowType type_;
+ 
+     SplitNotebook *notebook_;
++    // Smart TV edition, main window only (null on popup windows).
++    SmartTvRemote *smartTvRemote_ = nullptr;
++    SmartTvStaticOverlay *smartTvStatic_ = nullptr;
++    SmartTvBootScreen *smartTvBoot_ = nullptr;
+     LabelButton *userLabel_ = nullptr;
+     std::shared_ptr<UpdateDialog> updateDialogHandle_;
+ 
+diff --git a/src/widgets/settingspages/GeneralPage.cpp b/src/widgets/settingspages/GeneralPage.cpp
+index 0ce9fed..e03b3cc 100644
+--- a/src/widgets/settingspages/GeneralPage.cpp
++++ b/src/widgets/settingspages/GeneralPage.cpp
+@@ -510,6 +510,14 @@ void GeneralPage::initLayout(GeneralPageView &layout)
+                      "message to help better tell them apart.")
+         ->addTo(layout);
+ 
++    SettingWidget::checkbox("Smart TV mode (remote + channel static)",
++                            s.smartTvMode)
++        ->setTooltip("Smart TV edition: show the on-screen TV remote "
++                     "under the chat, light up CH+ on every channel "
++                     "(tab) change, and show 2 seconds of TV static "
++                     "over the chat when the channel changes.")
++        ->addTo(layout);
++
+     SettingWidget::checkbox("Reduce opacity of message history",
+                             s.fadeMessageHistory)
+         ->setTooltip(
