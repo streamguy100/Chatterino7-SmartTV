@@ -119,7 +119,7 @@ jobs:
             -DUSE_PRECOMPILED_HEADERS=ON `
             -DCHATTERINO_LTO=OFF `
             -DFORCE_JSON_GENERATION=Off `
-            -DCHATTERINO_SPELLCHECK=On `
+            -DCHATTERINO_SPELLCHECK=Off `
             ..
           ninja
 
